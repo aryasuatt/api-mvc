@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asp.NET API Client</title>
+
+    <style>
+        input {
+            margin: 10px;
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            border:2px solid rgb(128, 128, 128);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Client For ASP.NET CORE API</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <input type="text" name="Username" placeholder="username"/>
+        <input type="password" name="Password" placeholder="password"/>
+        <input onclick="Login()" value="Oturum Aç">
+        <hr>
+        <input onclick="GetData()" value="Veri Getir">
+    </form>
+
+    <section id="tobuylist">
+        <!-- Veri geldiğinde doldurulacaktır. -->
+    </section>
+
+    <script src="auth.js"></script>
+    <script>
+
+        // Login
+        async function Login() {
+            const username = document.getElementsByName("Username")[0].value;
+            const password = document.getElementsByName("Password")[0].value;
+            // console.log(username)
+            // console.log(password)
+            await getToken(username,password);
+        }
+
+        // Ana fonksiyon
+        async function GetData() {
+            try {
+                const token = localStorage.getItem("token");
+                await fetchProtectedData(token);
+            } catch (error) {
+                console.error(error);
+            }
+
+            let data = JSON.parse(localStorage.getItem("data"));
+            const htmlData = formatDataForTable(data)
+            let toBuySection = document.getElementById("tobuylist");
+            toBuySection.innerHTML = htmlData;
+
+        }
+        
+        function formatDataForTable(data) {
+            let strElement = "<table><tr><th>id</th><th>name</th><th>count</th><th>price</th><th>month</th><th>isBought</th></tr>"
+            data.forEach(element => {
+                strElement += `<tr><td>${element.id}</td><td>${element.name}</td><td>${element.count}</td><td>${element.price}</td><td>${element.month}</td><td>${element.isBought}</td></tr>`
+            });
+
+            strElement += "</table>"
+            return strElement
+        }
+    </script>
+</body>
+</html>

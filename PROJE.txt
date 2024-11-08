@@ -1,0 +1,18 @@
+BACKEND: C#, Asp.NET MVC, Asp.NET Core Web API, Ado.Net, Entity Framework,
+VERİTABANI: MS SQL SERVER, T-SQL Sorgulama Dili
+FRONT-END: HTML,CSS, SCSS, Boostrap, JS
+
+
+Proje Backend: Asp.Net Core WEB API (Identity), Entity Framework
+Proje Veritabanı: MS SQL Server
+Proje Önyüzü: Html,Css,Scss, Bootstrap, JS (API bağlantıları vs)
+
+
+Örnek Proje: 
+Daha önce sadece önyüzde çalıştırdığımız 3 Taş Oyunu için API yazılıp.
+Bütün işler servis üzerinden yapılabilir.
+Bu sayede kullanıcı bilgileri,puanlar vs DB'de tutulabilir.
+
+-----------
+
+
