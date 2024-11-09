@@ -1,0 +1,78 @@
+/* HTML ve body ayarları */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Login konteyneri stil ayarları */
+.login-container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Genişliği orantılı hale getir */
+    text-align: center;
+    box-sizing: border-box; /* Padding dahil */
+}
+
+/* Form grup ayarları */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Input ayarları */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Giriş yap butonu stil ayarları */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Animasyon */
+}
+
+/* Buton hover ve aktif durumunda stil */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="submit"]:active {
+    transform: scale(0.98); /* Hafif küçülme efekti */
+}
+
+/* Hata mesajı stil ayarları */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Şifremi unuttum linki */
+.forgot-password-link {
+    display: block;
+    margin-top: 15px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.forgot-password-link:hover {
+    text-decoration: underline;
+}

@@ -1,4 +1,5 @@
 using CoreAPI.Context;
+using CoreAPI.Services;
 using Microsoft.EntityFrameworkCore;
 using CoreAPI.Controllers;
 using System.Text;
@@ -10,99 +11,88 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Database connection
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Add services for ImageService and CartService
+builder.Services.AddScoped<ImageService>();  // Add ImageService to DI container
+builder.Services.AddScoped<CartService>();   // Add CartService to DI container
+
+// API Controllers
+builder.Services.AddControllers();  // Ensure controllers are registered
+
+// Swagger and OpenAPI configuration
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Yanýt cache'ini ekleyin
+// Response caching
 builder.Services.AddResponseCaching();
 
-// CORS yapýlandýrmasý
+builder.Services.AddScoped<CartService>();
+
+
+// CORS configuration
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowSpecificOrigin",
-        builder =>
-        {
-            builder.WithOrigins("http://127.0.0.1:5500") // Ýzin verilen kökenler
-                   .AllowAnyMethod() // Ýzin verilen HTTP yöntemleri (GET, POST, vb.)
-                   .AllowAnyHeader(); // Ýzin verilen baþlýklar
+    options.AddPolicy("AllowSpecificOrigin", policy =>
+    {
+        policy.WithOrigins("http://127.0.0.1:5500")  // Allowed origins
+              .AllowAnyMethod() // Allowed HTTP methods (GET, POST, etc.)
+              .AllowAnyHeader(); // Allowed headers
 
-            // Herkese izin ver
-            //builder.AllowAnyOrigin()
-            //   .AllowAnyMethod()
-            //   .AllowAnyHeader();
-        });
+        // Uncomment below for open CORS policy
+        // policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+    });
 });
 
-
-
-
-
-
-
-
-// Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-
-
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
-
-// Add Identity services
+// Identity service configuration
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
-// JWT ayarlarýný okuma
+// JWT authentication configuration
 var jwtSettings = builder.Configuration.GetSection("Jwt");
 var key = Encoding.ASCII.GetBytes(jwtSettings["Key"]);
 
-
-// JWT kimlik doðrulama yapýlandýrmasý
-builder.Services.AddAuthentication(x =>
-{
-    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(x =>
-{
-    x.RequireHttpsMetadata = false;
-    x.SaveToken = true;
-    x.TokenValidationParameters = new TokenValidationParameters
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
     {
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(key),
-        ValidateIssuer = true,
-        ValidateAudience = true,
-        ValidIssuer = jwtSettings["Issuer"],
-        ValidAudience = jwtSettings["Audience"]
-    };
-});
+        options.RequireHttpsMetadata = false;
+        options.SaveToken = true;
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(key),
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidIssuer = jwtSettings["Issuer"],
+            ValidAudience = jwtSettings["Audience"]
+        };
+    });
 
+// Authorization
 builder.Services.AddAuthorization();
-
-
-
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Swagger and development environment configuration
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-// CORS middleware'ini ekleyin
+
+// CORS middleware
 app.UseCors("AllowSpecificOrigin");
 
+// HTTPS redirection and other middleware
 app.UseHttpsRedirection();
-
-// Middleware'leri ekleyin
 app.UseResponseCaching();
-
 app.UseAuthentication();
 app.UseAuthorization();
 
+// Map controllers
 app.MapControllers();
 
 app.Run();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Mehmet Hoca Git\\mcsd419-develop\\mcsd419-develop\\CoreCourses\\CoreAPI\\CoreAPI.csproj": {}
+    "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreAPI\\CoreAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Mehmet Hoca Git\\mcsd419-develop\\mcsd419-develop\\CoreCourses\\CoreAPI\\CoreAPI.csproj": {
+    "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreAPI\\CoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Mehmet Hoca Git\\mcsd419-develop\\mcsd419-develop\\CoreCourses\\CoreAPI\\CoreAPI.csproj",
+        "projectUniqueName": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreAPI\\CoreAPI.csproj",
         "projectName": "CoreAPI",
-        "projectPath": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Mehmet Hoca Git\\mcsd419-develop\\mcsd419-develop\\CoreCourses\\CoreAPI\\CoreAPI.csproj",
+        "projectPath": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreAPI\\CoreAPI.csproj",
         "packagesPath": "C:\\Users\\aryas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Mehmet Hoca Git\\mcsd419-develop\\mcsd419-develop\\CoreCourses\\CoreAPI\\obj\\",
+        "outputPath": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

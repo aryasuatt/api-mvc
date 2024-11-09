@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uO2bDNPnvio=",
+  "dgSpecHash": "oFE3GCKo2Rg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Mehmet Hoca Git\\mcsd419-develop\\mcsd419-develop\\CoreCourses\\CoreAPI\\CoreAPI.csproj",
+  "projectFilePath": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreAPI\\CoreAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aryas\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\aryas\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

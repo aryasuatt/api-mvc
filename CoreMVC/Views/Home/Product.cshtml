@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+</head>
+<body>
+    <div class="product-details">
+        <!-- Ürün bilgileri burada dinamik olarak yüklenecek -->
+        <div class="product-image">
+            <img id="product-image" src="" alt="Product Image">
+        </div>
+
+        <div class="product-info">
+            <h2 id="product-name"></h2>
+            <p id="product-description"></p>
+            <span id="product-price"></span>
+
+            <div class="product-actions">
+                <button onclick="addToCart(1)" class="btn">Add to Cart</button>
+                <button onclick="addToWishlist(1)" class="btn">Add to Wishlist</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // URL'den ürün ID'sini al
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id');  // ID'yi al
+
+        // Dinamik veri yüklemek için fetch veya başka bir yöntem kullanabilirsiniz.
+        // Örnek: Veritabanından ürün bilgilerini al
+        // Bu kısmı backend'den veri alarak dinamik hale getirin.
+        fetch(`/api/products/${productId}`)
+            .then(response => response.json())
+            .then(product => {
+                document.getElementById('product-name').textContent = product.name;
+                document.getElementById('product-description').textContent = product.description;
+                document.getElementById('product-price').textContent = `$${product.price}`;
+                document.getElementById('product-image').src = product.imageUrl;
+            })
+            .catch(error => console.error('Product fetch error:', error));
+    </script>
+
+    <style>
+        .product-details {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .product-info {
+            margin-left: 20px;
+        }
+
+        .product-actions .btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .product-actions .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</body>
+</html>
