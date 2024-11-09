@@ -6,7 +6,6 @@ using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Identity;
-using CoreAPI.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,9 +15,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Add services for ImageService and CartService
+// Add services for ImageService, CartService, UserService, and IUserService
 builder.Services.AddScoped<ImageService>();  // Add ImageService to DI container
 builder.Services.AddScoped<CartService>();   // Add CartService to DI container
+builder.Services.AddScoped<IUserService, UserService>();  // Add IUserService and UserService to DI container
 
 // API Controllers
 builder.Services.AddControllers();  // Ensure controllers are registered

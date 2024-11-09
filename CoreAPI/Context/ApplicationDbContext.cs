@@ -39,8 +39,4 @@ namespace CoreAPI.Context
     }
 
 
-    public class ApplicationUser : IdentityUser
-    {
-        // Ek kullanıcı özelliklerini buraya ekleyebilirsiniz
-    }
 }

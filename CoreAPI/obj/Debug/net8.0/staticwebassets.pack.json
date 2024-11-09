@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\images\\39332695-a489-402a-913e-a9535b81d7f8.jpg",
+      "PackagePath": "staticwebassets\\images\\39332695-a489-402a-913e-a9535b81d7f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\images\\a87855ac-572a-4a7d-8530-7e5877d813e3.jpg",
+      "PackagePath": "staticwebassets\\images\\a87855ac-572a-4a7d-8530-7e5877d813e3.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CoreAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CoreAPI.props",
+      "PackagePath": "build\\CoreAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CoreAPI.props",
+      "PackagePath": "buildMultiTargeting\\CoreAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CoreAPI.props",
+      "PackagePath": "buildTransitive\\CoreAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

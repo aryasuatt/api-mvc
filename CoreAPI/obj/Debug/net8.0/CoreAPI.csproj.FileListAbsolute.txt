@@ -786,3 +786,4 @@ C:\Users\aryas\OneDrive\Masaüstü\Repo-Course\api-mvc-basic\CoreAPI\obj\Debug\n
 C:\Users\aryas\OneDrive\Masaüstü\Repo-Course\api-mvc-basic\CoreAPI\obj\Debug\net8.0\CoreAPI.pdb
 C:\Users\aryas\OneDrive\Masaüstü\Repo-Course\api-mvc-basic\CoreAPI\obj\Debug\net8.0\CoreAPI.genruntimeconfig.cache
 C:\Users\aryas\OneDrive\Masaüstü\Repo-Course\api-mvc-basic\CoreAPI\obj\Debug\net8.0\ref\CoreAPI.dll
+C:\Users\aryas\OneDrive\Masaüstü\Repo-Course\api-mvc-basic\CoreAPI\bin\Debug\net8.0\CoreAPI.staticwebassets.runtime.json

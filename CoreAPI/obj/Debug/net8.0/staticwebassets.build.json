@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "aLLUvKxX7bh6K2h97M5RlnHyMPqu04jsOiKnfYtJOzg=",
+  "Hash": "HZF4MFAvvOuB2TxVo8+U+SGlyGWPYyBYIbzBm/kLMNo=",
   "Source": "CoreAPI",
   "BasePath": "_content/CoreAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "CoreAPI\\wwwroot",
+      "Source": "CoreAPI",
+      "ContentRoot": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\",
+      "BasePath": "_content/CoreAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\images\\39332695-a489-402a-913e-a9535b81d7f8.jpg",
+      "SourceId": "CoreAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\",
+      "BasePath": "_content/CoreAPI",
+      "RelativePath": "images/39332695-a489-402a-913e-a9535b81d7f8.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\39332695-a489-402a-913e-a9535b81d7f8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\images\\a87855ac-572a-4a7d-8530-7e5877d813e3.jpg",
+      "SourceId": "CoreAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\",
+      "BasePath": "_content/CoreAPI",
+      "RelativePath": "images/a87855ac-572a-4a7d-8530-7e5877d813e3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\a87855ac-572a-4a7d-8530-7e5877d813e3.jpg"
+    }
+  ]
 }

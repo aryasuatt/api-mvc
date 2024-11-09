@@ -5,7 +5,7 @@
 namespace CoreAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class AlterImageTable : Migration
+    public partial class UpdateIsAdminField : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
