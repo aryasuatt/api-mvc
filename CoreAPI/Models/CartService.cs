@@ -14,7 +14,7 @@ namespace CoreAPI.Models
         // Sepet oluşturma
         public async Task<Cart> CreateCartAsync(string cartSessionId)
         {
-            var cart = new Cart
+            var cart = new Cart(cartSessionId)
             {
                 CartSessionId = cartSessionId,
                 CartItems = new List<CartItem>()

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreMVC\\CoreMVC.csproj": {}
+    "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreMVC\\CoreMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreAPI\\CoreAPI.csproj": {
+    "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\CoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreAPI\\CoreAPI.csproj",
+        "projectUniqueName": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\CoreAPI.csproj",
         "projectName": "CoreAPI",
-        "projectPath": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreAPI\\CoreAPI.csproj",
+        "projectPath": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\CoreAPI.csproj",
         "packagesPath": "C:\\Users\\aryas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreAPI\\obj\\",
+        "outputPath": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -112,14 +112,14 @@
         }
       }
     },
-    "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreMVC\\CoreMVC.csproj": {
+    "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreMVC\\CoreMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreMVC\\CoreMVC.csproj",
+        "projectUniqueName": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreMVC\\CoreMVC.csproj",
         "projectName": "CoreMVC",
-        "projectPath": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreMVC\\CoreMVC.csproj",
+        "projectPath": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreMVC\\CoreMVC.csproj",
         "packagesPath": "C:\\Users\\aryas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreMVC\\obj\\",
+        "outputPath": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -141,8 +141,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreAPI\\CoreAPI.csproj": {
-                "projectPath": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Github\\CoreCourses\\CoreAPI\\CoreAPI.csproj"
+              "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\CoreAPI.csproj": {
+                "projectPath": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\CoreAPI.csproj"
               }
             }
           }

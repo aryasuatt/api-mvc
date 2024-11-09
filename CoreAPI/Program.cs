@@ -6,6 +6,7 @@ using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Identity;
+using CoreAPI.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,9 +30,6 @@ builder.Services.AddSwaggerGen();
 // Response caching
 builder.Services.AddResponseCaching();
 
-builder.Services.AddScoped<CartService>();
-
-
 // CORS configuration
 builder.Services.AddCors(options =>
 {
@@ -47,7 +45,7 @@ builder.Services.AddCors(options =>
 });
 
 // Identity service configuration
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+builder.Services.AddIdentity<CoreAPI.Models.ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 

@@ -4,11 +4,23 @@ namespace CoreAPI.Models
 {
     public class Cart
     {
-        public int Id { get; set; }
+        public int CartId { get; set; }
+        public string CartSessionId { get; set; }
         public string UserId { get; set; }
-        public string CartSessionId { get; set; } // Anonim kullanıcılar için sepetin benzersiz kimliği
-        public ICollection<CartItem> CartItems { get; set; }
-        public decimal TotalPrice => CartItems?.Sum(x => x.Quantity * x.Product.Price) ?? 0; // Sepetteki toplam fiyat
+        public List<CartItem> CartItems { get; set; }
 
+        // Constructor with CartSessionId
+        public Cart(string cartSessionId)
+        {
+            CartSessionId = cartSessionId;
+            CartItems = new List<CartItem>(); // Initialize the collection
+        }
+
+        // Default constructor
+        public Cart()
+        {
+            CartItems = new List<CartItem>(); // Initialize the collection
+        }
     }
+
 }

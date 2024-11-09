@@ -17,79 +17,79 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CoreMVC
 build_property.RootNamespace = CoreMVC
-build_property.ProjectDir = C:\Users\aryas\OneDrive\Masaüstü\Github\CoreCourses\CoreMVC\
+build_property.ProjectDir = C:\Users\aryas\OneDrive\Masaüstü\Repo-Course\api-mvc-basic\CoreMVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\aryas\OneDrive\Masaüstü\Github\CoreCourses\CoreMVC
+build_property.MSBuildProjectDirectory = C:\Users\aryas\OneDrive\Masaüstü\Repo-Course\api-mvc-basic\CoreMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Views/Home/Address.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Views/Home/Address.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRyZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Views/Home/Index.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Views/Home/Privacy.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Views/Home/Product.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Views/Home/Product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Views/Login/Admin_Login.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Views/Login/Admin_Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQWRtaW5fTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Views/Shared/Error.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Views/ToBuy/Create.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Views/ToBuy/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9CdXlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Views/ToBuy/Delete.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Views/ToBuy/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9CdXlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Views/ToBuy/Details.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Views/ToBuy/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9CdXlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Views/ToBuy/Edit.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Views/ToBuy/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9CdXlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Views/ToBuy/Index.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Views/ToBuy/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9CdXlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Views/_ViewImports.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Views/_ViewStart.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aryas/OneDrive/Masaüstü/Github/CoreCourses/CoreMVC/Views/Shared/_Layout.cshtml]
+[C:/Users/aryas/OneDrive/Masaüstü/Repo-Course/api-mvc-basic/CoreMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jfo9avb2ty

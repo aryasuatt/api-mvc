@@ -2,6 +2,7 @@
 using CoreAPI.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using System.Reflection.Emit;
 
 namespace CoreAPI.Context
 {
@@ -20,7 +21,21 @@ namespace CoreAPI.Context
         public DbSet<Cart> Carts { get; set; } // Sepet tablosu
         public DbSet<CartItem> CartItems { get; set; } // Sepet öğeleri
 
-        
+        //protected override void onmodelcreating(modelbuilder modelbuilder)
+        //{
+        //    base.onmodelcreating(modelbuilder);
+
+        //    // product ve ımage arasında ilişki kurmak
+        //    modelbuilder.entity<product>() // burada statik olmayan bir çağrı
+        //        .hasone(p => p.ımage)
+        //        .withmany() // bir resim birden fazla ürüne ait olabilir, ancak burada tek yönlü ilişki
+        //        .hasforeignkey(p => p.ımageıd)
+        //        .ondelete(deletebehavior.restrict); // silme işlemi sırasında dikkatli olun
+        //}
+
+
+
+
     }
 
 

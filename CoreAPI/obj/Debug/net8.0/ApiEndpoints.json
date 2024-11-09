@@ -140,9 +140,54 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "product",
-        "Type": "CoreAPI.Models.Product",
-        "IsRequired": true
+        "Name": "Product.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Product.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Product.Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Product.Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Product.Stock",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Product.ImageUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Product.ImageFileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Product.ImageContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Product.ImageData",
+        "Type": "System.Byte[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
