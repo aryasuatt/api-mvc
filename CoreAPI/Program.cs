@@ -30,19 +30,32 @@ builder.Services.AddSwaggerGen();
 // Response caching
 builder.Services.AddResponseCaching();
 
-// CORS configuration
+//// CORS configuration
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("AllowSpecificOrigin", policy =>
+//    {
+//        policy.WithOrigins("http://127.0.0.1:5500")  // Allowed origins
+//              .AllowAnyMethod() // Allowed HTTP methods (GET, POST, etc.)
+//              .AllowAnyHeader(); // Allowed headers
+
+//        // Uncomment below for open CORS policy
+//        // policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+//    });
+//});
+
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowSpecificOrigin", policy =>
+    options.AddPolicy("AllowAllOrigins", policy =>
     {
-        policy.WithOrigins("http://127.0.0.1:5500")  // Allowed origins
-              .AllowAnyMethod() // Allowed HTTP methods (GET, POST, etc.)
-              .AllowAnyHeader(); // Allowed headers
-
-        // Uncomment below for open CORS policy
-        // policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+        policy.AllowAnyOrigin()  // Tüm kaynaklardan gelen istekleri kabul eder
+              .AllowAnyMethod()  // Tüm HTTP metodlarýna izin verir (GET, POST, PUT, DELETE vb.)
+              .AllowAnyHeader(); // Tüm baþlýklara izin verir
     });
 });
+
+
+
 
 // Identity service configuration
 builder.Services.AddIdentity<CoreAPI.Models.ApplicationUser, IdentityRole>()
@@ -81,8 +94,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// CORS middleware
-app.UseCors("AllowSpecificOrigin");
+//// CORS middleware
+//app.UseCors("AllowSpecificOrigin");
+
+// CORS politikalarýný uygula
+app.UseCors("AllowAllOrigins");
 
 // HTTPS redirection and other middleware
 app.UseHttpsRedirection();

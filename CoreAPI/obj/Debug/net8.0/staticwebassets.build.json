@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HZF4MFAvvOuB2TxVo8+U+SGlyGWPYyBYIbzBm/kLMNo=",
+  "Hash": "OxrD/8KYHXuykeel9ifyMchRDd/hn2NbfHYFvPN5Sr8=",
   "Source": "CoreAPI",
   "BasePath": "_content/CoreAPI",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\images\\13762e7a-5fb6-4346-92a1-621ba3169527.jpeg",
+      "SourceId": "CoreAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\",
+      "BasePath": "_content/CoreAPI",
+      "RelativePath": "images/13762e7a-5fb6-4346-92a1-621ba3169527.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\13762e7a-5fb6-4346-92a1-621ba3169527.jpeg"
+    },
     {
       "Identity": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\images\\39332695-a489-402a-913e-a9535b81d7f8.jpg",
       "SourceId": "CoreAPI",
@@ -34,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\39332695-a489-402a-913e-a9535b81d7f8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\images\\48bb71c2-279c-49ec-9c67-765234ebdc82.jpg",
+      "SourceId": "CoreAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\",
+      "BasePath": "_content/CoreAPI",
+      "RelativePath": "images/48bb71c2-279c-49ec-9c67-765234ebdc82.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\48bb71c2-279c-49ec-9c67-765234ebdc82.jpg"
     },
     {
       "Identity": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\images\\a87855ac-572a-4a7d-8530-7e5877d813e3.jpg",

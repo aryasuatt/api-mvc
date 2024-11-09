@@ -205,7 +205,7 @@ namespace CoreAPI.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("CoreAPI.Models.ToBuy", b =>
+            modelBuilder.Entity("CoreAPI.Models.Wishlist", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -231,7 +231,7 @@ namespace CoreAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ToBuy");
+                    b.ToTable("Wishlist");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

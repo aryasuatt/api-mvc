@@ -3,56 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EBC9B18-A0C1-44B9-A70B-D136AA4C8B00}|CoreMVC\\CoreMVC.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coremvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6EBC9B18-A0C1-44B9-A70B-D136AA4C8B00}|CoreMVC\\CoreMVC.csproj|solutionrelative:coremvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\coreapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\coreapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EBC9B18-A0C1-44B9-A70B-D136AA4C8B00}|CoreMVC\\CoreMVC.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coremvc\\views\\login\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EBC9B18-A0C1-44B9-A70B-D136AA4C8B00}|CoreMVC\\CoreMVC.csproj|solutionrelative:coremvc\\views\\login\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Migrations\\20241109134346_AddRolesToDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CoreAPI\\Migrations\\20241109134346_AddRolesToDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EBC9B18-A0C1-44B9-A70B-D136AA4C8B00}|CoreMVC\\CoreMVC.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coremvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EBC9B18-A0C1-44B9-A70B-D136AA4C8B00}|CoreMVC\\CoreMVC.csproj|solutionrelative:coremvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EBC9B18-A0C1-44B9-A70B-D136AA4C8B00}|CoreMVC\\CoreMVC.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coremvc\\models\\adminloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EBC9B18-A0C1-44B9-A70B-D136AA4C8B00}|CoreMVC\\CoreMVC.csproj|solutionrelative:coremvc\\models\\adminloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EBC9B18-A0C1-44B9-A70B-D136AA4C8B00}|CoreMVC\\CoreMVC.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coremvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EBC9B18-A0C1-44B9-A70B-D136AA4C8B00}|CoreMVC\\CoreMVC.csproj|solutionrelative:coremvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EBC9B18-A0C1-44B9-A70B-D136AA4C8B00}|CoreMVC\\CoreMVC.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EBC9B18-A0C1-44B9-A70B-D136AA4C8B00}|CoreMVC\\CoreMVC.csproj|solutionrelative:coremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EBC9B18-A0C1-44B9-A70B-D136AA4C8B00}|CoreMVC\\CoreMVC.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coremvc\\models\\loginresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EBC9B18-A0C1-44B9-A70B-D136AA4C8B00}|CoreMVC\\CoreMVC.csproj|solutionrelative:coremvc\\models\\loginresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|c:\\users\\aryas\\onedrive\\masa\u00FCst\u00FC\\repo-course\\api-mvc-basic\\coreapi\\views\\wishlist\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F81C412-CEA6-48E5-935C-4EE4EC7710E8}|CoreAPI\\CoreAPI.csproj|solutionrelative:coreapi\\views\\wishlist\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,8 +61,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 309,
-          "SelectedChildIndex": 9,
+          "DockedWidth": 246,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,167 +86,178 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "CoreAPI\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Services\\UserService.cs",
-              "RelativeToolTip": "CoreAPI\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T13:29:28.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "CoreAPI\\Services\\IUserService.cs",
-              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Services\\IUserService.cs",
-              "RelativeToolTip": "CoreAPI\\Services\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T13:28:48.258Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Program.cs",
-              "RelativeDocumentMoniker": "CoreAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Program.cs",
-              "RelativeToolTip": "CoreAPI\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAvwC8AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T12:30:32.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "CoreAPI\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "CoreAPI\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAIA8wCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T11:39:26.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "CoreAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "CoreAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAIwCoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T13:41:32.283Z",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CoreAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CoreAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-09T19:28:24.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20241109134346_AddRolesToDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Migrations\\20241109134346_AddRolesToDatabase.cs",
-              "RelativeDocumentMoniker": "CoreAPI\\Migrations\\20241109134346_AddRolesToDatabase.cs",
-              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Migrations\\20241109134346_AddRolesToDatabase.cs",
-              "RelativeToolTip": "CoreAPI\\Migrations\\20241109134346_AddRolesToDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "CoreMVC\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "CoreMVC\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCIAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T13:43:47.033Z"
+              "WhenOpened": "2024-11-09T18:51:42.164Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CartService.cs",
-              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Services\\CartService.cs",
-              "RelativeDocumentMoniker": "CoreAPI\\Services\\CartService.cs",
-              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Services\\CartService.cs",
-              "RelativeToolTip": "CoreAPI\\Services\\CartService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCgAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "AdminLoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Models\\AdminLoginModel.cs",
+              "RelativeDocumentMoniker": "CoreMVC\\Models\\AdminLoginModel.cs",
+              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Models\\AdminLoginModel.cs",
+              "RelativeToolTip": "CoreMVC\\Models\\AdminLoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T12:21:27.284Z"
+              "WhenOpened": "2024-11-09T18:53:02.555Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "CoreAPI\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Controllers\\CartController.cs",
-              "RelativeToolTip": "CoreAPI\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBkAAABZAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CoreAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Program.cs",
+              "RelativeToolTip": "CoreAPI\\Program.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswGQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T13:32:48.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "CoreAPI\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "CoreAPI\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAowG4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T12:03:48.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "CoreAPI\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Models\\Product.cs",
-              "RelativeToolTip": "CoreAPI\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T12:09:06.364Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 91,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "CoreAPI\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "CoreAPI\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T13:48:16.192Z",
+              "WhenOpened": "2024-11-09T19:21:11.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ImageController.cs",
-              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Controllers\\ImageController.cs",
-              "RelativeDocumentMoniker": "CoreAPI\\Controllers\\ImageController.cs",
-              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Controllers\\ImageController.cs",
-              "RelativeToolTip": "CoreAPI\\Controllers\\ImageController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAXAAAAAAAAAA==",
+              "Title": "LoginResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Models\\LoginResponseModel.cs",
+              "RelativeDocumentMoniker": "CoreMVC\\Models\\LoginResponseModel.cs",
+              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Models\\LoginResponseModel.cs",
+              "RelativeToolTip": "CoreMVC\\Models\\LoginResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T12:04:31.377Z"
+              "WhenOpened": "2024-11-09T18:53:27.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Program.cs",
+              "RelativeDocumentMoniker": "CoreMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Program.cs",
+              "RelativeToolTip": "CoreMVC\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:05:42.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CoreMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CoreMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAHoBAAAAAAAAAAAgwIcBAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T19:07:18.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CoreAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CoreAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:09:36.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "CoreAPI\\Models\\Cart.cs",
               "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Models\\Cart.cs",
               "RelativeToolTip": "CoreAPI\\Models\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T12:18:50.674Z"
+              "WhenOpened": "2024-11-09T18:03:44.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Views\\Wishlist\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CoreAPI\\Views\\Wishlist\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\Views\\Wishlist\\Delete.cshtml",
+              "RelativeToolTip": "CoreAPI\\Views\\Wishlist\\Delete.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T15:16:49.714Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 648,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CoreMVC\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CoreMVC\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-09T19:31:31.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoreAPI.http",
+              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\CoreAPI.http",
+              "RelativeDocumentMoniker": "CoreAPI\\CoreAPI.http",
+              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreAPI\\CoreAPI.http",
+              "RelativeToolTip": "CoreAPI\\CoreAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-09T19:31:19.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Views\\Login\\AdminLogin.cshtml",
+              "RelativeDocumentMoniker": "CoreMVC\\Views\\Login\\AdminLogin.cshtml",
+              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Views\\Login\\AdminLogin.cshtml",
+              "RelativeToolTip": "CoreMVC\\Views\\Login\\AdminLogin.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwCoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T18:53:55.267Z",
+              "EditorCaption": ""
             }
           ]
         }

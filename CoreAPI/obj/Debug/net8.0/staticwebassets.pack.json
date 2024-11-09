@@ -1,8 +1,16 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\images\\13762e7a-5fb6-4346-92a1-621ba3169527.jpeg",
+      "PackagePath": "staticwebassets\\images\\13762e7a-5fb6-4346-92a1-621ba3169527.jpeg"
+    },
+    {
       "Id": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\images\\39332695-a489-402a-913e-a9535b81d7f8.jpg",
       "PackagePath": "staticwebassets\\images\\39332695-a489-402a-913e-a9535b81d7f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\images\\48bb71c2-279c-49ec-9c67-765234ebdc82.jpg",
+      "PackagePath": "staticwebassets\\images\\48bb71c2-279c-49ec-9c67-765234ebdc82.jpg"
     },
     {
       "Id": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\images\\a87855ac-572a-4a7d-8530-7e5877d813e3.jpg",

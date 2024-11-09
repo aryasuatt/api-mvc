@@ -15,49 +15,49 @@ namespace CoreAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ToBuyController : ControllerBase
+    public class WishlistController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
 
-        public ToBuyController(ApplicationDbContext context)
+        public WishlistController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: api/ToBuy
+        // GET: api/Wishlist
         [HttpGet]
         [Authorize]
         [ResponseCache(Duration = 60)] // Yanıtı 60 saniye cache'le
-        public async Task<ActionResult<IEnumerable<ToBuy>>> GetToBuy()
+        public async Task<ActionResult<IEnumerable<Wishlist>>> GetWishlist()
         {
-            return await _context.ToBuy.ToListAsync();
+            return await _context.Wishlist.ToListAsync();
         }
 
-        // GET: api/ToBuy/5
+        // GET: api/Wishlist/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<ToBuy>> GetToBuy(int id)
+        public async Task<ActionResult<Wishlist>> GetWishlist(int id)
         {
-            var toBuy = await _context.ToBuy.FindAsync(id);
+            var Wishlist = await _context.Wishlist.FindAsync(id);
 
-            if (toBuy == null)
+            if (Wishlist == null)
             {
                 return NotFound();
             }
 
-            return toBuy;
+            return Wishlist;
         }
 
-        // PUT: api/ToBuy/5
+        // PUT: api/Wishlist/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutToBuy(int id, ToBuy toBuy)
+        public async Task<IActionResult> PutWishlist(int id, Wishlist Wishlist)
         {
-            if (id != toBuy.Id)
+            if (id != Wishlist.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(toBuy).State = EntityState.Modified;
+            _context.Entry(Wishlist).State = EntityState.Modified;
 
             try
             {
@@ -65,7 +65,7 @@ namespace CoreAPI.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ToBuyExists(id))
+                if (!WishlistExists(id))
                 {
                     return NotFound();
                 }
@@ -78,36 +78,36 @@ namespace CoreAPI.Controllers
             return NoContent();
         }
 
-        // POST: api/ToBuy
+        // POST: api/Wishlist
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<ToBuy>> PostToBuy(ToBuy toBuy)
+        public async Task<ActionResult<Wishlist>> PostWishlist(Wishlist Wishlist)
         {
-            _context.ToBuy.Add(toBuy);
+            _context.Wishlist.Add(Wishlist);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetToBuy", new { id = toBuy.Id }, toBuy);
+            return CreatedAtAction("GetWishlist", new { id = Wishlist.Id }, Wishlist);
         }
 
-        // DELETE: api/ToBuy/5
+        // DELETE: api/Wishlist/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteToBuy(int id)
+        public async Task<IActionResult> DeleteWishlist(int id)
         {
-            var toBuy = await _context.ToBuy.FindAsync(id);
-            if (toBuy == null)
+            var Wishlist = await _context.Wishlist.FindAsync(id);
+            if (Wishlist == null)
             {
                 return NotFound();
             }
 
-            _context.ToBuy.Remove(toBuy);
+            _context.Wishlist.Remove(Wishlist);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool ToBuyExists(int id)
+        private bool WishlistExists(int id)
         {
-            return _context.ToBuy.Any(e => e.Id == id);
+            return _context.Wishlist.Any(e => e.Id == id);
         }
     }
 }

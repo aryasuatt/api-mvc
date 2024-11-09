@@ -1,6 +1,8 @@
 ﻿using CoreAPI.Models;
 using CoreAPI.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace CoreAPI.Controllers
 {
@@ -18,12 +20,28 @@ namespace CoreAPI.Controllers
         }
 
         // Sepet oluşturma (Yeni bir CartSessionId ile)
+        [Authorize]
         [HttpPost("create")]
         public async Task<IActionResult> CreateCart()
         {
-            var cartSessionId = Guid.NewGuid().ToString(); // Benzersiz bir sepet ID'si oluşturuluyor
-            await _cartService.CreateCartAsync(cartSessionId);  // Just perform the action, don't assign it to a variable
-            return Ok(new { CartSessionId = cartSessionId }); // Sepet ID'si döndürülüyor
+            var userId = HttpContext.User?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized("User ID is required.");
+            }
+
+            var cartSessionId = Guid.NewGuid().ToString();
+            try
+            {
+                await _cartService.CreateCartAsync(cartSessionId, userId);  // userId'yi ekliyoruz
+                return Ok(new { CartSessionId = cartSessionId });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error creating cart: {ex.Message}");
+                return StatusCode(500, "An error occurred while creating the cart.");
+            }
+
         }
 
         // Sepete ürün ekleme

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CoreAPI.Models.ToBuy>
+﻿@model IEnumerable<CoreAPI.Models.Wishlist>
 
 @{
     ViewData["Title"] = "Index";
@@ -22,9 +22,6 @@
                 @Html.DisplayNameFor(model => model.Price)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Month)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.IsBought)
             </th>
             <th></th>
@@ -41,9 +38,6 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Month)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.IsBought)

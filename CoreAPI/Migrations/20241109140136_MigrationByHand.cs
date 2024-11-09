@@ -102,7 +102,7 @@ namespace CoreAPI.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "ToBuy",
+                name: "Wishlist",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -115,7 +115,7 @@ namespace CoreAPI.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ToBuy", x => x.Id);
+                    table.PrimaryKey("PK_Wishlist", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -326,7 +326,7 @@ namespace CoreAPI.Migrations
                 name: "Images");
 
             migrationBuilder.DropTable(
-                name: "ToBuy");
+                name: "Wishlist");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

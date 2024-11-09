@@ -20,17 +20,16 @@ namespace CoreAPI.Services
         }
 
         // Create a cart for the current user
-        public async Task CreateCartAsync(string cartSessionId)
+        public async Task CreateCartAsync(string cartSessionId, string userId)
         {
             if (string.IsNullOrEmpty(cartSessionId))
             {
                 throw new ArgumentException("Cart session ID is required.", nameof(cartSessionId));
             }
 
-            var userId = _userService.GetCurrentUserId();  // Get the current user ID
             if (string.IsNullOrEmpty(userId))
             {
-                throw new Exception("User ID is required to create a cart.");
+                throw new ArgumentException("User ID is required.", nameof(userId));
             }
 
             var cart = new Cart

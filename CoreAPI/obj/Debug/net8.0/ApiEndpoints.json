@@ -209,16 +209,16 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CoreAPI.Controllers.ToBuyController",
-    "Method": "GetToBuy",
-    "RelativePath": "api/ToBuy",
+    "ContainingType": "CoreAPI.Controllers.WishlistController",
+    "Method": "GetWishlist",
+    "RelativePath": "api/Wishlist",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[CoreAPI.Models.ToBuy, CoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CoreAPI.Models.Wishlist, CoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -229,22 +229,22 @@
     ]
   },
   {
-    "ContainingType": "CoreAPI.Controllers.ToBuyController",
-    "Method": "PostToBuy",
-    "RelativePath": "api/ToBuy",
+    "ContainingType": "CoreAPI.Controllers.WishlistController",
+    "Method": "PostWishlist",
+    "RelativePath": "api/Wishlist",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "toBuy",
-        "Type": "CoreAPI.Models.ToBuy",
+        "Name": "Wishlist",
+        "Type": "CoreAPI.Models.Wishlist",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "CoreAPI.Models.ToBuy",
+        "Type": "CoreAPI.Models.Wishlist",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -255,9 +255,9 @@
     ]
   },
   {
-    "ContainingType": "CoreAPI.Controllers.ToBuyController",
-    "Method": "GetToBuy",
-    "RelativePath": "api/ToBuy/{id}",
+    "ContainingType": "CoreAPI.Controllers.WishlistController",
+    "Method": "GetWishlist",
+    "RelativePath": "api/Wishlist/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -270,7 +270,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CoreAPI.Models.ToBuy",
+        "Type": "CoreAPI.Models.Wishlist",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -281,9 +281,9 @@
     ]
   },
   {
-    "ContainingType": "CoreAPI.Controllers.ToBuyController",
-    "Method": "PutToBuy",
-    "RelativePath": "api/ToBuy/{id}",
+    "ContainingType": "CoreAPI.Controllers.WishlistController",
+    "Method": "PutWishlist",
+    "RelativePath": "api/Wishlist/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -294,17 +294,17 @@
         "IsRequired": true
       },
       {
-        "Name": "toBuy",
-        "Type": "CoreAPI.Models.ToBuy",
+        "Name": "Wishlist",
+        "Type": "CoreAPI.Models.Wishlist",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CoreAPI.Controllers.ToBuyController",
-    "Method": "DeleteToBuy",
-    "RelativePath": "api/ToBuy/{id}",
+    "ContainingType": "CoreAPI.Controllers.WishlistController",
+    "Method": "DeleteWishlist",
+    "RelativePath": "api/Wishlist/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

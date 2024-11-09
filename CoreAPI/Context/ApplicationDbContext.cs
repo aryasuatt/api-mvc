@@ -15,7 +15,7 @@ namespace CoreAPI.Context
         }
 
         // DbSet'lerinizi buraya ekleyebilirsiniz
-        public DbSet<CoreAPI.Models.ToBuy> ToBuy { get; set; } = default!;
+        public DbSet<CoreAPI.Models.Wishlist> Wishlist { get; set; } = default!;
         public DbSet<CoreAPI.Models.Image> Images { get; set; }
         public DbSet<Product> Products { get; set; } // Ürün tablosu
         public DbSet<Cart> Carts { get; set; } // Sepet tablosu

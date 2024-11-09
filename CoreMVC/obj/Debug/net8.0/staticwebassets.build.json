@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pOFFh2L3YJrUIKD9l3t5auichaQIxIajWas7CzjY0DI=",
+  "Hash": "m8BJlDS9Eyl9jqhJbVJNkgxK3BSoPYfum/2e30XzOlI=",
   "Source": "CoreMVC",
   "BasePath": "_content/CoreMVC",
   "Mode": "Default",
@@ -1176,6 +1176,25 @@
       "OriginalItemSpec": "C:\\Users\\aryas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\images\\13762e7a-5fb6-4346-92a1-621ba3169527.jpeg",
+      "SourceId": "CoreAPI",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\",
+      "BasePath": "_content/CoreAPI",
+      "RelativePath": "images/13762e7a-5fb6-4346-92a1-621ba3169527.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\13762e7a-5fb6-4346-92a1-621ba3169527.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\images\\39332695-a489-402a-913e-a9535b81d7f8.jpg",
       "SourceId": "CoreAPI",
       "SourceType": "Project",
@@ -1193,6 +1212,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\39332695-a489-402a-913e-a9535b81d7f8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\images\\48bb71c2-279c-49ec-9c67-765234ebdc82.jpg",
+      "SourceId": "CoreAPI",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\",
+      "BasePath": "_content/CoreAPI",
+      "RelativePath": "images/48bb71c2-279c-49ec-9c67-765234ebdc82.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\48bb71c2-279c-49ec-9c67-765234ebdc82.jpg"
     },
     {
       "Identity": "C:\\Users\\aryas\\OneDrive\\Masaüstü\\Repo-Course\\api-mvc-basic\\CoreAPI\\wwwroot\\images\\a87855ac-572a-4a7d-8530-7e5877d813e3.jpg",

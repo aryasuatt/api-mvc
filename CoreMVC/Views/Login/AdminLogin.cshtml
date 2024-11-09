@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@model CoreMVC.Models.AdminLoginModel
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +17,7 @@
                 const username = document.getElementById('username').value; // Get username
                 const password = document.getElementById('password').value; // Get password
 
-                fetch('https://localhost:5151/api/auth/login', {
+                fetch('https://localhost:5219/api/Auth/login', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -38,7 +40,7 @@
                             console.log('Token stored:', data.token);
 
                             // Redirect on successful login
-                            window.location.href = 'https://localhost:7160/'; // Redirect to dashboard or home page
+                            window.location.href = 'https://localhost:5219/'; // Redirect to dashboard or home page
                         } else {
                             console.error('Token not found.');
                         }
@@ -54,7 +56,7 @@
 
     <div class="login-container">
         <h2>Seller Login</h2>
-        <form id="login-form">
+        <form id="login-form" asp-action="AdminLogin" method="post">
             <div class="form-group">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required autocomplete="username"> <!-- Set autocomplete to username -->
