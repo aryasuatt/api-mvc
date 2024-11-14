@@ -34,21 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 762,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "CoreMVC\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "CoreMVC\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T13:20:57.052Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -71,6 +58,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "CoreMVC\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "CoreMVC\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T13:20:57.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ProductModel.cs",
               "DocumentMoniker": "C:\\Users\\aryas\\OneDrive\\Masa\u00FCst\u00FC\\Repo-Course\\api-mvc-basic\\CoreMVC\\Models\\ProductModel.cs",
@@ -79,8 +79,7 @@
               "RelativeToolTip": "CoreMVC\\Models\\ProductModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T13:19:33.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T13:19:33.377Z"
             },
             {
               "$type": "Document",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "CoreMVC\\Views\\Login\\AdminLogin.cshtml",
               "ViewState": "AgIAAAcAAAAAAAAAAAAswBQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T13:02:57.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T13:02:57.22Z"
             },
             {
               "$type": "Document",
@@ -105,8 +103,7 @@
               "RelativeToolTip": "CoreMVC\\Models\\LoginResponseModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T12:40:32.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T12:40:32.311Z"
             },
             {
               "$type": "Document",
@@ -118,8 +115,7 @@
               "RelativeToolTip": "CoreAPI\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAIwFUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T12:36:07.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T12:36:07.547Z"
             },
             {
               "$type": "Document",
@@ -131,8 +127,7 @@
               "RelativeToolTip": "CoreMVC\\Controllers\\LoginController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAowB0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T23:29:18.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T23:29:18.245Z"
             }
           ]
         }
