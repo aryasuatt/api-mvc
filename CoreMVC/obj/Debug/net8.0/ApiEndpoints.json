@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "CoreAPI.Controllers.AuthController",
+    "Method": "GetIsAdmin",
+    "RelativePath": "api/Auth/{username}/IsAdmin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoreAPI.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",

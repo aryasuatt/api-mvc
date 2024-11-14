@@ -80,12 +80,28 @@ namespace CoreAPI.Controllers
                 };
                 var token = tokenHandler.CreateToken(tokenDescriptor);
                 var tokenString = tokenHandler.WriteToken(token);
-                return Ok(new { Token = tokenString });
+
+                return Ok(new { Token = tokenString, UserId = user.Id });
             }
             return Unauthorized();
         }
 
-        // Ensure "Admin" and "User" roles exist in the system
+        [HttpGet("{username}/IsAdmin")]
+        public async Task<IActionResult> GetIsAdmin(string username)
+        {
+            var user = await _userManager.FindByNameAsync(username);
+            if (user == null)
+            {
+                return NotFound(new { Message = "Kullanıcı bulunamadı" });
+            }
+
+            var roles = await _userManager.GetRolesAsync(user);
+            bool isAdmin = roles.Contains("Admin"); // Kullanıcının Admin rolünde olup olmadığını kontrol et
+
+            return Ok(new { IsAdmin = isAdmin });
+        }
+
+
         private async Task EnsureRolesExistAsync()
         {
             var roleExists = await _roleManager.RoleExistsAsync("Admin");

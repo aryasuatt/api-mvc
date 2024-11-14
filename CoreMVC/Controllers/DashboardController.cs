@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 
 namespace CoreMVC.Controllers
 {
-
     public class DashboardController : Controller
     {
         public IActionResult Index()
