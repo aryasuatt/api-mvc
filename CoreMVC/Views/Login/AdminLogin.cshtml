@@ -17,7 +17,7 @@
                 const username = document.getElementById('username').value; // Get username
                 const password = document.getElementById('password').value; // Get password
 
-                fetch('https://localhost:5219/api/Auth/login', {
+                fetch('http://localhost:5219/api/Auth/login', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -40,7 +40,7 @@
                             console.log('Token stored:', data.token);
 
                             // Redirect on successful login
-                            window.location.href = 'https://localhost:5219/'; // Redirect to dashboard or home page
+                            window.location.href = 'http://localhost:5219/'; // Redirect to dashboard or home page
                         } else {
                             console.error('Token not found.');
                         }

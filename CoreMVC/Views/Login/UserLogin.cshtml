@@ -1,0 +1,85 @@
+﻿@model CoreMVC.Models.UserLoginModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="~/css/login.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const loginForm = document.getElementById('login-form');
+
+            loginForm.addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                const username = document.getElementById('username').value;
+                const password = document.getElementById('password').value;
+
+                fetch('http://localhost:5219/api/Auth/login', { // Login API endpoint
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        username: username,  // Send username
+                        password: password    // Send password
+                    })
+                })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        if (data.token) {
+                            // Store the token if found
+                            localStorage.setItem('token', data.token);
+                            console.log('Token stored:', data.token);
+
+                            // Check if the user is an admin
+                            if (data.isAdmin) {
+                                // Redirect to admin dashboard if the user is an admin
+                                window.location.href = 'http://localhost:5219/admin/dashboard'; // Admin dashboard URL
+                            } else {
+                                // Redirect to user dashboard if the user is not an admin
+                                window.location.href = 'http://localhost:5219/user/dashboard'; // User dashboard URL
+                            }
+                        } else {
+                            console.error('Token not found.');
+                            document.getElementById('error-message').innerText = "Login failed. Please check your credentials.";
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error during login process:', error);
+                        document.getElementById('error-message').innerText = "Login failed. Please check your credentials.";
+                    });
+            });
+        });
+    </script>
+</head>
+<body class="login_body">
+
+    <div class="login-container">
+        <h2>User Login</h2>
+        <form id="login-form" asp-action="UserLogin" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required autocomplete="username">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required autocomplete="current-password">
+            </div>
+            <button type="submit" id="login-btn">Login</button>
+            <p id="error-message" class="error-message"></p>
+        </form>
+        <div><a href="/frontend_/admin_login.html" class="forgot_password_class">Admin Login</a></div> 
+        <a href="/forgot-password" class="forgot-password-link">Forgot Password</a>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

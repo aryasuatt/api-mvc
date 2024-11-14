@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "User Dashboard";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="~/css/dashboard.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>User Dashboard</h1>
+        <p>Welcome, @User.Identity.Name!</p>
+
+        <div class="dashboard-links">
+            <a href="/profile">My Profile</a>
+            <a href="/orders">Order History</a>
+            <a href="/wishlist">Wishlist</a>
+            <a href="/settings">Account Settings</a>
+            <a href="/logout">Logout</a>
+        </div>
+
+        <div class="dashboard-info">
+            <h2>Account Overview</h2>
+            <p>Last Login: @DateTime.Now.AddDays(-1).ToString("MM/dd/yyyy")</p>
+            <p>Membership Status: Premium</p>
+            <p>Total Orders: 15</p>
+        </div>
+    </div>
+</body>
+</html>

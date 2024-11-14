@@ -32,7 +32,7 @@ namespace CoreMVC.Controllers
             var jsonContent = JsonConvert.SerializeObject(model);
             var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
 
-            var response = await _httpClient.PostAsync("https://localhost:5219/api/Auth/login", content);
+            var response = await _httpClient.PostAsync("http://localhost:5219/api/Auth/login", content);
 
             if (response.IsSuccessStatusCode)
             {

@@ -31,31 +31,15 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddResponseCaching();
 
 //// CORS configuration
-//builder.Services.AddCors(options =>
-//{
-//    options.AddPolicy("AllowSpecificOrigin", policy =>
-//    {
-//        policy.WithOrigins("http://127.0.0.1:5500")  // Allowed origins
-//              .AllowAnyMethod() // Allowed HTTP methods (GET, POST, etc.)
-//              .AllowAnyHeader(); // Allowed headers
-
-//        // Uncomment below for open CORS policy
-//        // policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
-//    });
-//});
-
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAllOrigins", policy =>
     {
-        policy.AllowAnyOrigin()  // Tüm kaynaklardan gelen istekleri kabul eder
-              .AllowAnyMethod()  // Tüm HTTP metodlarýna izin verir (GET, POST, PUT, DELETE vb.)
-              .AllowAnyHeader(); // Tüm baþlýklara izin verir
+        policy.AllowAnyOrigin()  // Allow all origins (use this only for development)
+              .AllowAnyMethod()  // Allow all HTTP methods (GET, POST, PUT, DELETE, etc.)
+              .AllowAnyHeader(); // Allow all headers
     });
 });
-
-
-
 
 // Identity service configuration
 builder.Services.AddIdentity<CoreAPI.Models.ApplicationUser, IdentityRole>()
@@ -69,7 +53,7 @@ var key = Encoding.ASCII.GetBytes(jwtSettings["Key"]);
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
-        options.RequireHttpsMetadata = false;
+        options.RequireHttpsMetadata = false; // Set to true in production
         options.SaveToken = true;
         options.TokenValidationParameters = new TokenValidationParameters
         {
@@ -94,17 +78,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-//// CORS middleware
-//app.UseCors("AllowSpecificOrigin");
-
-// CORS politikalarýný uygula
-app.UseCors("AllowAllOrigins");
+// CORS middleware - apply the "AllowAllOrigins" policy
+app.UseCors("AllowAllOrigins");  // Enable CORS for all origins, methods, and headers
 
 // HTTPS redirection and other middleware
-app.UseHttpsRedirection();
-app.UseResponseCaching();
-app.UseAuthentication();
-app.UseAuthorization();
+app.UseHttpsRedirection(); // Redirect HTTP to HTTPS
+app.UseResponseCaching();  // Enable response caching
+app.UseAuthentication();   // Enable authentication middleware
+app.UseAuthorization();    // Enable authorization middleware
 
 // Map controllers
 app.MapControllers();
