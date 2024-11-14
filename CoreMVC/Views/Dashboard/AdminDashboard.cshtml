@@ -44,27 +44,6 @@
                 </li>
             </ul>
 
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link pb-0 pt-0" data-toggle="dropdown" href="#">
-                        <button onclick="AddBalance()" class="btn btn-success">+500 ₺</button>
-                        <div class="p-0">
-                            <div class="row" style="font-size:12px">Bakiye (₺) : 1200</div>
-                            <div class="row" style="font-size:12px">Sipariş Sayısı: 53</div>
-                        </div>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-widget="fullscreen" href="#" role="button">
-                        <i class="fas fa-expand-arrows-alt"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-                        <i class="fas fa-th-large"></i>
-                    </a>
-                </li>
-            </ul>
         </nav>
 
         <!-- Sidebar -->
@@ -172,24 +151,52 @@
 
                     <!-- Main row -->
                     <div class="row">
-                        <section class="col-lg-7 connectedSortable">
+                        <!-- Ürün Kaydetme Yayınlama sectionı-->
+                        <section class="col-lg-5 connectedSortable">
                             <div class="card">
-                                <div class="card-header">
-                                    <h3 class="card-title">
-                                        <i class="fas fa-chart-pie mr-1"></i>
-                                        Satış Dağılımı
-                                    </h3>
+                                <div class="card-header p-3">
+                                    <h3 class="card-title">Ürün Yayınlama</h3>
                                 </div>
                                 <div class="card-body">
-                                    <div class="tab-content p-0">
-                                        <div class="chart tab-pane active" id="revenue-chart" style="position: relative; height: 300px;">
-                                            <canvas id="revenue-chart-canvas" height="300"></canvas>
+                                    <form method="post" action="/Products/Create" enctype="multipart/form-data">
+                                        <div class="form-group">
+                                            <label for="productName">Ürün Adı</label>
+                                            <input type="text" class="form-control" id="productName" name="ProductName" required>
                                         </div>
-                                    </div>
+
+                                        <div class="form-group">
+                                            <label for="price">Fiyat (₺)</label>
+                                            <input type="number" class="form-control" id="price" name="Price" step="0.01" required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="description">Açıklama</label>
+                                            <textarea class="form-control" id="description" name="Description" rows="3" required></textarea>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="category">Kategori</label>
+                                            <select class="form-control" id="category" name="CategoryId" required>
+                                                <option value="">Seçiniz</option>
+                                                <option value="1">Elektronik</option>
+                                                <option value="2">Moda</option>
+                                                <option value="3">Ev ve Yaşam</option>
+                                                <!-- Diğer kategoriler buraya eklenebilir -->
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="productImage">Ürün Fotoğrafı</label>
+                                            <input type="file" class="form-control-file" id="productImage" name="ProductImage" required>
+                                        </div>
+
+                                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                                    </form>
                                 </div>
                             </div>
                         </section>
 
+                        <!-- Sipariş Durumu sectionı-->
                         <section class="col-lg-5 connectedSortable">
                             <div class="card">
                                 <div class="card-header p-3">
@@ -215,6 +222,60 @@
                                                 <td>Laptop</td>
                                                 <td><span class="badge bg-warning">Hazırlanıyor</span></td>
                                             </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="col-lg-12 connectedSortable">
+                            <div class="card">
+                                <div class="card-header p-3">
+                                    <h3 class="card-title">Ürün Listesi ve Stok Güncelleme</h3>
+                                </div>
+                                <div class="card-body">
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Ürün ID</th>
+                                                <th>Ürün Adı</th>
+                                                <th>Fiyat (₺)</th>
+                                                <th>Stok Miktarı</th>
+                                                <th>Yeni Stok Miktarı</th>
+                                                <th>Güncelle</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- Örnek ürün listesi -->
+                                            <tr>
+                                                <td>PRD001</td>
+                                                <td>Akıllı Telefon</td>
+                                                <td>5000 ₺</td>
+                                                <td>20</td>
+                                                <td>
+                                                    <form method="post" asp-action="UpdateStock" asp-controller="Products">
+                                                        <input type="hidden" name="ProductId" value="PRD001">
+                                                        <input type="number" class="form-control" name="NewStock" min="0" required>
+                                                        <button type="submit" class="btn btn-success">Stok Güncelle</button>
+                                                    </form>
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>PRD002</td>
+                                                <td>Laptop</td>
+                                                <td>7500 ₺</td>
+                                                <td>15</td>
+                                                <td>
+                                                    <form method="post" action="/Products/UpdateStock">
+                                                        <input type="hidden" name="ProductId" value="PRD002">
+                                                        <input type="number" class="form-control" name="NewStock" min="0" required>
+                                                        <button type="submit" class="btn btn-success">Stok Güncelle</button>
+                                                    </form>
+                                                </td>
+
+                                            </tr>
+                                            <!-- Diğer ürünler için ek satırlar -->
                                         </tbody>
                                     </table>
                                 </div>
